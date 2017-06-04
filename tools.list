@@ -8,6 +8,7 @@ pickaxe_signalum
 pickaxe_lumium
 pickaxe_enderium
 pickaxe_aluminium
+pickaxe_osmium
 axe_bronze
 axe_copper
 axe_silver
@@ -18,6 +19,7 @@ axe_signalum
 axe_lumium
 axe_enderium
 axe_aluminium
+axe_osmium
 shovel_bronze
 shovel_copper
 shovel_silver
@@ -28,6 +30,7 @@ shovel_signalum
 shovel_lumium
 shovel_enderium
 shovel_aluminium
+shovel_osmium
 hoe_bronze
 hoe_copper
 hoe_silver
@@ -38,6 +41,7 @@ hoe_signalum
 hoe_lumium
 hoe_enderium
 hoe_aluminium
+hoe_osmium
 sword_bronze
 sword_copper
 sword_silver
@@ -48,3 +52,4 @@ sword_signalum
 sword_lumium
 sword_enderium
 sword_aluminium
+sword_osmium
