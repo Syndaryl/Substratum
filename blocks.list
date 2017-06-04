@@ -9,6 +9,7 @@ ore_sulfur
 ore_niter
 ore_alumina
 ore_chrome
+ore_osmium
 block_brass
 block_bronze
 block_copper
@@ -27,3 +28,4 @@ block_lumium
 block_enderium
 block_aluminium
 block_chrome
+block_osmium
