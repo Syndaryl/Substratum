@@ -75,7 +75,7 @@ public class SubstratumBlocks
     new BlockMetalSlab.Variant(EnumMaterial.ENDERIUM),
     new BlockMetalSlab.Variant(EnumMaterial.ALUMINIUM),
     new BlockMetalSlab.Variant(EnumMaterial.CHROMIUM),
-    new BlockMetal.Variant(EnumMaterial.OSMIUM)
+    new BlockMetalSlab.Variant(EnumMaterial.OSMIUM)
   };
 
   public static BlockMetal[] block_metal;

@@ -63,7 +63,31 @@ processResources
     }
 }
 
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.9'
+}
 jar {
-    destinationDir = file 'output'
+    //manifest commonManifest
+    from sourceSets.main.output
+    classifier = 'universal'
 }
 
+task deobfJar(type: Jar) {
+    from sourceSets.main.output
+    classifier = 'deobf'
+}
+
+/* task sourceJar(type: Jar) {
+    from sourceSets.main.allSource
+    classifier = 'sources'
+}
+*/
+
+tasks.build.dependsOn('sourceJar', 'deobfJar', 'jar')
+
+
+artifacts {
+    archives deobfJar
+    archives sourceJar
+    archives jar
+}

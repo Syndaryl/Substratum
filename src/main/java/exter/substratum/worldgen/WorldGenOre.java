@@ -81,6 +81,8 @@ public class WorldGenOre
     
   static public void registerOre(WorldgenConfig config, IBlockState state, boolean nether)
   {
+    if(config == null)
+    	return;
     if(config.enabled)
     {
       ores.add(new WorldGenOre(config.min_y, config.max_y, config.min_frequency, config.max_frequency, config.cluster_size, state, nether));

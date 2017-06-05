@@ -49,7 +49,7 @@ public enum EnumMaterialEquipment
   ENDERIUM(EnumMaterial.ENDERIUM,
       EnumHelper.addToolMaterial("SUBSTRATUM_ENDERIUM", 3, 1000, 10.0F, 4.0F, 20),
       EnumHelper.addArmorMaterial("SUBSTRATUM_ENDERIUM", "enderium", 40, new int[]{4, 7, 9, 4}, 20, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 2.0F),
-      8.0F, -3.0F)
+      8.0F, -3.0F),
   OSMIUM(EnumMaterial.OSMIUM,
       EnumHelper.addToolMaterial("SUBSTRATUM_OSMIUM", 3, 500, 7.0F, 3.0F, 16),
       EnumHelper.addArmorMaterial("SUBSTRATUM_OSMIUM", "osmium", 40, new int[]{3, 7, 8, 3}, 20, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 1.0F),
