@@ -9,6 +9,7 @@ tile.substratum.ore_lead.name=Lead Ore
 tile.substratum.ore_platinum.name=Platinum Ore
 tile.substratum.ore_alumina.name=Alumina Ore
 tile.substratum.ore_chrome.name=Chromium Ore
+tile.substratum.ore_osmium.name=Osmium Ore
 tile.substratum.ore_sulfur.name=Sulfur Ore
 tile.substratum.ore_niter.name=Niter Ore
 
@@ -30,6 +31,7 @@ tile.substratum.block_lumium.name=Block of Lumium
 tile.substratum.block_enderium.name=Block of Enderium
 tile.substratum.block_aluminium.name=Block of Aluminium
 tile.substratum.block_chrome.name=Block of Chromium
+tile.substratum.block_osmium.name=Block of Osmium
 
 tile.substratum.slab_iron.name=Iron Slab
 tile.substratum.slab_gold.name=Gold Slab
@@ -51,6 +53,7 @@ tile.substratum.slab_lumium.name=Lumium Slab
 tile.substratum.slab_enderium.name=Enderium Slab
 tile.substratum.slab_aluminium.name=Aluminium Slab
 tile.substratum.slab_chrome.name=Chromium Slab
+tile.substratum.slab_osmium.name=Osmium Slab
 
 tile.substratum.slab_double_iron.name=Double Iron Slab
 tile.substratum.slab_double_gold.name=Double Gold Slab
@@ -72,6 +75,7 @@ tile.substratum.slab_double_lumium.name=Double Lumium Slab
 tile.substratum.slab_double_enderium.name=Double Enderium Slab
 tile.substratum.slab_double_aluminium.name=Double Aluminium Slab
 tile.substratum.slab_double_chrome.name=Double Chromium Slab
+tile.substratum.slab_double_osmium.name=Double Osmium Slab
 
 tile.substratum.stairs_iron.name=Iron Stairs
 tile.substratum.stairs_gold.name=Gold Stairs
@@ -93,6 +97,7 @@ tile.substratum.stairs_lumium.name=Lumium Stairs
 tile.substratum.stairs_enderium.name=Enderium Stairs
 tile.substratum.stairs_aluminium.name=Aluminium Stairs
 tile.substratum.stairs_chrome.name=Chromium Stairs
+tile.substratum.stairs_osmium.name=Osmium Stairs
 
 item.substratum.ingot_copper.name=Copper Ingot
 item.substratum.ingot_tin.name=Tin Ingot
@@ -262,6 +267,7 @@ item.substratum.bottle_liquid_redstone.name=Liquid Redstone Bottle
 item.substratum.bottle_liquid_glowstone.name=Liquid Glowstone Bottle
 item.substratum.bottle_liquid_enderpearl.name=Liquid Ender Pearl Bottle
 
+item.substratum.bucket_liquid_osmium.name=Liquid Osmium Bucket
 item.substratum.bucket_liquid_redstone.name=Liquid Redstone Bucket
 item.substratum.bucket_liquid_glowstone.name=Liquid Glowstone Bucket
 item.substratum.bucket_liquid_enderpearl.name=Liquid Ender Pearl Bucket
@@ -409,7 +415,9 @@ item.substratum.mortar=Mortar
 fluid.substratum.liquid_redstone=Liquid Redstone
 fluid.substratum.liquid_glowstone=Liquid Glowstone
 fluid.substratum.liquid_enderpearl=Liquid Enderpearl
+fluid.substratum.liquid_osmium=Liquid Osmium
 
 tile.substratum.liquid_redstone.name=Liquid Redstone
 tile.substratum.liquid_glowstone.name=Liquid Glowstone
 tile.substratum.liquid_enderpearl.name=Liquid Enderpearl
+tile.substratum.liquid_osmium.name=Liquid Osmium

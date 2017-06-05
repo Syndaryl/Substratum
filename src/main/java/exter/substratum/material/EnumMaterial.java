@@ -38,7 +38,8 @@ public enum EnumMaterial
   BLAZE("Blaze"),
   ALUMINA("Alumina"),
   ALUMINIUM("Aluminium", "Aluminum"),
-  CHROMIUM("Chrome", "Chromium");
+  CHROMIUM("Chrome", "Chromium"),
+  OSMIUM("Osmium");
   
   public final String suffix;
 

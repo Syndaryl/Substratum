@@ -17,6 +17,7 @@ public class SubstratumFluids
   static public FluidSubstratum liquid_redstone;
   static public FluidSubstratum liquid_glowstone;
   static public FluidSubstratum liquid_enderpearl;
+  static public FluidSubstratum liquid_osmium;
 
   static public Map<EnumMaterial,Fluid> material_fluids = new EnumMap<EnumMaterial,Fluid>(EnumMaterial.class);
   
@@ -43,5 +44,6 @@ public class SubstratumFluids
     liquid_redstone = register(EnumMaterial.REDSTONE, "liquidRedstone", 800, 4);
     liquid_glowstone = register(EnumMaterial.GLOWSTONE, "liquidGlowstone", 1100, 15);
     liquid_enderpearl = register(EnumMaterial.ENDERPEARL, "liquidEnderpearl", 1400, 2);
+    liquid_osmium = register(EnumMaterial.OSMIUM, "liquidOsmium", 1000, 5);
   }
 }

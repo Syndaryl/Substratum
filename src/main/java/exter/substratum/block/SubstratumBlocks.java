@@ -34,14 +34,15 @@ public class SubstratumBlocks
       new BlockMetal.Variant(EnumMaterial.PLATINUM),
       new BlockMetal.Variant(EnumMaterial.CUPRONICKEL),
       new BlockMetal.Variant(EnumMaterial.SIGNALUM),
-      new BlockMetal.Variant(EnumMaterial.LUMIUM),
+      new BlockMetal.Variant(EnumMaterial.LUMIUM)
   };
 
   private static final BlockMetal.Variant[] BLOCK2_METALS = 
   {
       new BlockMetal.Variant(EnumMaterial.ENDERIUM),
       new BlockMetal.Variant(EnumMaterial.ALUMINIUM),
-      new BlockMetal.Variant(EnumMaterial.CHROMIUM)
+      new BlockMetal.Variant(EnumMaterial.CHROMIUM),
+      new BlockMetal.Variant(EnumMaterial.OSMIUM)
   };
 
   private static final BlockMetalSlab.Variant[] SLAB1_METALS = 
@@ -73,7 +74,8 @@ public class SubstratumBlocks
     new BlockMetalSlab.Variant(EnumMaterial.LUMIUM),
     new BlockMetalSlab.Variant(EnumMaterial.ENDERIUM),
     new BlockMetalSlab.Variant(EnumMaterial.ALUMINIUM),
-    new BlockMetalSlab.Variant(EnumMaterial.CHROMIUM)
+    new BlockMetalSlab.Variant(EnumMaterial.CHROMIUM),
+    new BlockMetal.Variant(EnumMaterial.OSMIUM)
   };
 
   public static BlockMetal[] block_metal;
